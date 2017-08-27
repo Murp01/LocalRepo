@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Autonmation Tests">
+
+	<test name="Smoke Test Cases">
+
+		<groups>		
+			<Run>
+				<include name='Priority1'/>		
+			</Run>		
+		</groups>
+		
+		
+		
+	 
+			<classes>
+				<class name="implementingAnnotations.smokeTestSite" />
+				<class name="comNGFramework.dependencyAnnotations"/>
+			</classes>			
+	
+		
+	
+	</test>
+
+</suite>

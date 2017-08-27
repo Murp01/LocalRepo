@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Automation from package level">
+
+	<test name = "Checking annotations">
+	
+		<packages>
+			<package name = "comNGFramework"/>	
+			<package name = "implementingAnnotations"/>
+		</packages>
+	
+	
+	</test>
+
+</suite>

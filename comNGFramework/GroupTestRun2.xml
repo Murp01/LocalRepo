@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Autonmation Tests">
+
+	<test name="Smoke Test Cases">
+
+		<groups>		
+			<Run>
+				<include name='Priority1'/>		
+			</Run>		
+		</groups>
+		
+		
+		
+	 
+			<classes>
+				<class name="implementingAnnotations.insightsPracticeFilter" />
+			</classes>			
+	
+		
+	
+	</test>
+
+</suite>
