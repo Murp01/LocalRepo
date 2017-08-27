@@ -6,7 +6,7 @@
       <class name="implementingAnnotations.LL_DataDrivenGetList">
         <methods>
           <include name="InvokeWebDriver"/>
-          <include name="ListAllFilterItems" invocation-numbers="0"/>
+          <include name="LandingPageSearch" invocation-numbers="0"/>
         </methods>
       </class> <!-- implementingAnnotations.LL_DataDrivenGetList -->
     </classes>

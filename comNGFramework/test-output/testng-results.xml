@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42643" started-at="2017-08-27T16:19:10Z" finished-at="2017-08-27T16:19:52Z">
+  <suite name="Default suite" duration-ms="28490" started-at="2017-08-27T23:15:39Z" finished-at="2017-08-27T23:16:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42643" started-at="2017-08-27T16:19:10Z" finished-at="2017-08-27T16:19:52Z">
+    <test name="Default test" duration-ms="28490" started-at="2017-08-27T23:15:39Z" finished-at="2017-08-27T23:16:07Z">
       <class name="implementingAnnotations.LL_DataDrivenGetList">
-        <test-method status="PASS" signature="InvokeWebDriver()[pri:0, instance:implementingAnnotations.LL_DataDrivenGetList@d8355a8]" name="InvokeWebDriver" is-config="true" duration-ms="23763" started-at="2017-08-27T17:19:10Z" finished-at="2017-08-27T17:19:33Z">
+        <test-method status="PASS" signature="InvokeWebDriver()[pri:0, instance:implementingAnnotations.LL_DataDrivenGetList@d8355a8]" name="InvokeWebDriver" is-config="true" duration-ms="20133" started-at="2017-08-28T00:15:39Z" finished-at="2017-08-28T00:15:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvokeWebDriver -->
-        <test-method status="PASS" signature="ListAllFilterItems(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:implementingAnnotations.LL_DataDrivenGetList@d8355a8]" name="ListAllFilterItems" duration-ms="10212" started-at="2017-08-27T17:19:33Z" data-provider="FilterPointers" finished-at="2017-08-27T17:19:44Z">
+        <test-method status="PASS" signature="LandingPageSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:implementingAnnotations.LL_DataDrivenGetList@d8355a8]" name="LandingPageSearch" duration-ms="8271" started-at="2017-08-28T00:15:59Z" data-provider="LandingPageSearchData" finished-at="2017-08-28T00:16:07Z">
           <params>
             <param index="0">
               <value>
@@ -20,49 +20,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[//div[@class='btn-group bootstrap-select show-tick']/button[@title='Practice']]]>
+                <![CDATA[FCA]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[//button[@title='Practice']/../select[@name='practice']/option]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[//button[@title='Practice']/../div/ul/li[]]>
+                <![CDATA[//input[@class='string-search']]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ListAllFilterItems -->
-        <test-method status="PASS" signature="ListAllFilterItems(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:implementingAnnotations.LL_DataDrivenGetList@d8355a8]" name="ListAllFilterItems" duration-ms="8580" started-at="2017-08-27T17:19:44Z" data-provider="FilterPointers" finished-at="2017-08-27T17:19:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[//div[@class='row']/div/ul/li[5]/a[@href='/en/insights']]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[//div[@class='btn-group bootstrap-select show-tick']/button[@title='Sector']]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[//button[@title='Sector']/../select[@title='Sector']/option]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[//button[@title='Sector']/../div/ul/li[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ListAllFilterItems -->
+        </test-method> <!-- LandingPageSearch -->
       </class> <!-- implementingAnnotations.LL_DataDrivenGetList -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
