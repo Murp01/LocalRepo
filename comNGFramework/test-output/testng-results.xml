@@ -2,37 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28490" started-at="2017-08-27T23:15:39Z" finished-at="2017-08-27T23:16:07Z">
+  <suite name="Default suite" duration-ms="48168" started-at="2017-09-05T21:32:14Z" finished-at="2017-09-05T21:33:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28490" started-at="2017-08-27T23:15:39Z" finished-at="2017-08-27T23:16:07Z">
-      <class name="implementingAnnotations.LL_DataDrivenGetList">
-        <test-method status="PASS" signature="InvokeWebDriver()[pri:0, instance:implementingAnnotations.LL_DataDrivenGetList@d8355a8]" name="InvokeWebDriver" is-config="true" duration-ms="20133" started-at="2017-08-28T00:15:39Z" finished-at="2017-08-28T00:15:59Z">
+    <test name="Default test" duration-ms="48168" started-at="2017-09-05T21:32:14Z" finished-at="2017-09-05T21:33:02Z">
+      <class name="comNGFramework.Practice07b_GllobalParamPlayAround">
+        <test-method status="PASS" signature="initiateChromeLaunch()[pri:0, instance:comNGFramework.Practice07b_GllobalParamPlayAround@14acaea5]" name="initiateChromeLaunch" is-config="true" duration-ms="22931" started-at="2017-09-05T23:32:14Z" finished-at="2017-09-05T23:32:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- InvokeWebDriver -->
-        <test-method status="PASS" signature="LandingPageSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:implementingAnnotations.LL_DataDrivenGetList@d8355a8]" name="LandingPageSearch" duration-ms="8271" started-at="2017-08-28T00:15:59Z" data-provider="LandingPageSearchData" finished-at="2017-08-28T00:16:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[//div[@class='row']/div/ul/li[5]/a[@href='/en/insights']]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[FCA]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[//input[@class='string-search']]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- initiateChromeLaunch -->
+        <test-method status="PASS" signature="login()[pri:0, instance:comNGFramework.Practice07b_GllobalParamPlayAround@14acaea5]" name="login" duration-ms="25178" started-at="2017-09-05T23:32:37Z" finished-at="2017-09-05T23:33:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LandingPageSearch -->
-      </class> <!-- implementingAnnotations.LL_DataDrivenGetList -->
+        </test-method> <!-- login -->
+      </class> <!-- comNGFramework.Practice07b_GllobalParamPlayAround -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

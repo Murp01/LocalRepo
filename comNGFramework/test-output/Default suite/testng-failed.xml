@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="implementingAnnotations.LL_DataDrivenGetList">
+      <class name="comNGFramework.Practice07b_GllobalParamPlayAround">
         <methods>
-          <include name="InvokeWebDriver"/>
-          <include name="LandingPageSearch" invocation-numbers="0"/>
+          <include name="login"/>
+          <include name="initiateChromeLaunch"/>
         </methods>
-      </class> <!-- implementingAnnotations.LL_DataDrivenGetList -->
+      </class> <!-- comNGFramework.Practice07b_GllobalParamPlayAround -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

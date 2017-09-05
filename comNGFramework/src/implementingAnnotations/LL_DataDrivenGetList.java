@@ -102,7 +102,7 @@ public class LL_DataDrivenGetList {
 		return data;
 	}
 	
-	// @Test (dataProvider = "FilterPointers")		//	add an extra sing that will annount "Filter is and has 20 selections"
+	@Test (dataProvider = "FilterPointers")		//	add an extra sing that will annount "Filter is and has 20 selections"
 	public void ListAllFilterItems(String LandingPageLink, String FilterLocation, String FilterSelCount, String SelNameList,
 			String PreMessage)
 	{	
@@ -175,7 +175,7 @@ public class LL_DataDrivenGetList {
 	}
 	
 	
-	//@AfterTest
+	@AfterTest
 	public void TestTearDown()
 	{
 		driver.close();
