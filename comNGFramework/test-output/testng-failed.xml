@@ -3,58 +3,31 @@
 <suite name="Failed suite [Automation from package level]">
   <test name="Checking annotations(failed)">
     <classes>
-      <class name="comNGFramework.Practice07_GllobalParameterization">
+      <class name="comNGFramework.Practice07b_GllobalParamPlayAround">
         <methods>
-          <include name="login"/>
+          <include name="initiateChromeLaunch"/>
         </methods>
-      </class> <!-- comNGFramework.Practice07_GllobalParameterization -->
-      <class name="comNGFramework.Practice01_Annotations">
-        <methods>
-          <include name="printErrorMessage"/>
-          <include name="openingBrowser"/>
-          <include name="preReq"/>
-        </methods>
-      </class> <!-- comNGFramework.Practice01_Annotations -->
-      <class name="comNGFramework.Practice04_GroupingTests">
-        <methods>
-          <include name="assertSitemapPage"/>
-          <include name="openContactForm"/>
-          <include name="invokeChromeDriver"/>
-          <include name="openSocialMedia"/>
-        </methods>
-      </class> <!-- comNGFramework.Practice04_GroupingTests -->
-      <class name="comNGFramework.Practice05_DataDrivenMethod">
-        <methods>
-          <include name="testCountDropMethod"/>
-        </methods>
-      </class> <!-- comNGFramework.Practice05_DataDrivenMethod -->
-      <class name="comNGFramework.Practice10_InheritanceExtends">
-        <methods>
-          <include name="openBrowser"/>
-        </methods>
-      </class> <!-- comNGFramework.Practice10_InheritanceExtends -->
-      <class name="comNGFramework.Practice08_IfElseWebDrivers">
-        <methods>
-          <include name="login"/>
-        </methods>
-      </class> <!-- comNGFramework.Practice08_IfElseWebDrivers -->
+      </class> <!-- comNGFramework.Practice07b_GllobalParamPlayAround -->
       <class name="comNGFramework.Practice06_ParamatisingFromXML">
         <methods>
           <include name="testing"/>
+          <include name="InvokeWebDriver"/>
         </methods>
       </class> <!-- comNGFramework.Practice06_ParamatisingFromXML -->
-      <class name="comNGFramework.Practice03_DependencyAnnotations">
+      <class name="comNGFramework.Practice04_GroupingTests">
         <methods>
-          <include name="timeOutAttribute"/>
-          <include name="openBrowser"/>
-          <include name="openTravelWebsite"/>
+          <include name="closeBrowser"/>
+          <include name="invokeChromeDriver"/>
         </methods>
-      </class> <!-- comNGFramework.Practice03_DependencyAnnotations -->
-      <class name="comNGFramework.Practice07b_GllobalParamPlayAround">
+      </class> <!-- comNGFramework.Practice04_GroupingTests -->
+      <class name="comNGFramework.Practice01_Annotations">
         <methods>
-          <include name="login"/>
+          <include name="delCookiesCloseBrowser"/>
+          <include name="userGeneratedID"/>
+          <include name="postMethodResult"/>
+          <include name="preReq"/>
         </methods>
-      </class> <!-- comNGFramework.Practice07b_GllobalParamPlayAround -->
+      </class> <!-- comNGFramework.Practice01_Annotations -->
     </classes>
   </test> <!-- Checking annotations(failed) -->
 </suite> <!-- Failed suite [Automation from package level] -->
