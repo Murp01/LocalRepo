@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation from package level]">
+  <test name="Checking annotations(failed)">
+    <classes>
+      <class name="comNGFramework.Practice07b_GllobalParamPlayAround">
+        <methods>
+          <include name="login"/>
+          <include name="initiateChromeLaunch"/>
+        </methods>
+      </class> <!-- comNGFramework.Practice07b_GllobalParamPlayAround -->
+      <class name="comNGFramework.Practice01_Annotations">
+        <methods>
+          <include name="delCookiesCloseBrowser"/>
+          <include name="userGeneratedID"/>
+          <include name="postMethodResult"/>
+          <include name="preReq"/>
+        </methods>
+      </class> <!-- comNGFramework.Practice01_Annotations -->
+      <class name="comNGFramework.Practice06_ParamatisingFromXML">
+        <methods>
+          <include name="testing"/>
+          <include name="InvokeWebDriver"/>
+        </methods>
+      </class> <!-- comNGFramework.Practice06_ParamatisingFromXML -->
+      <class name="comNGFramework.Practice04_GroupingTests">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="invokeChromeDriver"/>
+          <include name="openSocialMedia"/>
+        </methods>
+      </class> <!-- comNGFramework.Practice04_GroupingTests -->
+    </classes>
+  </test> <!-- Checking annotations(failed) -->
+</suite> <!-- Failed suite [Automation from package level] -->
