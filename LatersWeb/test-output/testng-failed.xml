@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="homepage.HomepageBannerWidget">
+      <class name="primaryNavigation.PM01_HomepageLink">
         <methods>
-          <include name="countAndClickTopicsSlides"/>
+          <include name="clickHomePageIcon"/>
           <include name="invokeChromeDriver"/>
-          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- homepage.HomepageBannerWidget -->
+      </class> <!-- primaryNavigation.PM01_HomepageLink -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

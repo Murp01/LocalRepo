@@ -6,3 +6,4 @@ topicsBar = //div[@class='sliderControl slick-initialized slick-slider']
 topicCount = //div[@class='sliderControl slick-initialized slick-slider']/div/div/div
 topicSlides = //div[@class='sliderChild__dots']
 topicSlideClick = //div[@class='sliderChild__dots']/ul/li
+primaryNavLLLogo = //a[@class='header__brand']

@@ -24,7 +24,7 @@ public class HP01_HomepageBannerWidget {
 		System.setProperty("webdriver.chrome.driver", "c:\\Eclipse\\Webdrivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://lpslive.linklaters.com");
+		driver.get("https://lpslive.linklaters.com/");
 	}
 	
 	
