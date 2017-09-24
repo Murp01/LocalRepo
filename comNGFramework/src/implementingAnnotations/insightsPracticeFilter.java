@@ -5,14 +5,11 @@ import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
 
 public class insightsPracticeFilter {
@@ -29,51 +26,6 @@ public class insightsPracticeFilter {
 	String pracBoxASize = "//nav[@class='is-active']/div/div[1]/ul[1]/li";
 	//	first column in practice drop down box
 	String pracBoxA = "//nav[@class='is-active']/div/div/ul/li/a";
-	String listA;
-	String listB;
-	String listC;
-	String listD;
-	
-	@Test
-	public void practiceDropDown()
-	{
-		
-		
-		WebDriverWait d = new WebDriverWait(driver, 20);
-
-		Actions a = new Actions(driver);
-		
-		WebElement pracTitle = driver.findElement(By.xpath(pracNav));
-		
-		a.moveToElement(pracTitle).build().perform();
-		
-		d.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(pracBox)));
-		
-		int count = driver.findElements(By.xpath(pracBoxASize)).size();
-		
-		System.out.println(count);
-		
-		List<String> list = new ArrayList<String>();
-		
-		for (int i = 1; i < count; i++)
-		{
-			listA = driver.findElement(By.xpath("//nav[@class='is-active']/div/div/ul/li[" + i + "]/a")).getAttribute("innerText");
-			list.add(listA);
-			System.out.println(listA);
-		}
-		
-		for (int i = 1; i < count; i++)
-		{
-			listB = driver.findElement(By.xpath("//nav[@class='is-active']/div/div/ul[2]/li[" + i + "]/a")).getAttribute("innerText");
-			list.add(listB);
-			System.out.println(listB);
-		}
-		
-		System.out.println(listA);
-		
-		
-		
-	}
 
 	@BeforeTest
 	public void invokeChromeDriver()
@@ -118,28 +70,5 @@ public class insightsPracticeFilter {
 		
 
 	}
-	
-	
-	
-
-	
-	
-	
-	@Test
-	public void openSocialMedia()
-	{
-
-	}
-	
-
-/*	Step1: Open Website (eventually both live and UAT
- * 	Step2: scan the titles from the 'Practices'/'Sectors' sections
- * 	Step3: Click on 'Insights' title
- * 	Step4: Click on 'Practices' filter
- * 	Step5: Ensure contents match the 'Practices' title
- */
-
-	
-	
 
 }

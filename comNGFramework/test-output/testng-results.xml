@@ -1,210 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" total="16" passed="15">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation from package level" duration-ms="201856" started-at="2017-09-07T21:53:50Z" finished-at="2017-09-07T21:57:12Z">
+  <suite name="Default suite" duration-ms="28150" started-at="2017-09-12T19:00:23Z" finished-at="2017-09-12T19:00:51Z">
     <groups>
-      <group name="Priority1">
-        <method signature="Practice04_GroupingTests.assertSitemapPage()[pri:0, instance:comNGFramework.Practice04_GroupingTests@d70c109]" name="assertSitemapPage" class="comNGFramework.Practice04_GroupingTests"/>
-        <method signature="Practice04_GroupingTests.openContactForm()[pri:0, instance:comNGFramework.Practice04_GroupingTests@d70c109]" name="openContactForm" class="comNGFramework.Practice04_GroupingTests"/>
-      </group> <!-- Priority1 -->
-      <group name="Priority2">
-        <method signature="Practice04_GroupingTests.openSocialMedia()[pri:0, instance:comNGFramework.Practice04_GroupingTests@d70c109]" name="openSocialMedia" class="comNGFramework.Practice04_GroupingTests"/>
-      </group> <!-- Priority2 -->
     </groups>
-    <test name="Checking annotations" duration-ms="201856" started-at="2017-09-07T21:53:50Z" finished-at="2017-09-07T21:57:12Z">
-      <class name="comNGFramework.Practice07b_GllobalParamPlayAround">
-        <test-method status="PASS" signature="login()[pri:0, instance:comNGFramework.Practice07b_GllobalParamPlayAround@50675690]" name="login" duration-ms="43106" started-at="2017-09-07T23:55:53Z" finished-at="2017-09-07T23:56:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- comNGFramework.Practice07b_GllobalParamPlayAround -->
-      <class name="comNGFramework.Practice01_Annotations">
-        <test-method status="PASS" signature="preReq()[pri:0, instance:comNGFramework.Practice01_Annotations@2be94b0f]" name="preReq" is-config="true" duration-ms="47" started-at="2017-09-07T23:53:50Z" finished-at="2017-09-07T23:53:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preReq -->
-        <test-method status="PASS" signature="invokeChromeDriver()[pri:0, instance:comNGFramework.Practice04_GroupingTests@d70c109]" name="invokeChromeDriver" is-config="true" duration-ms="17022" started-at="2017-09-07T23:53:50Z" finished-at="2017-09-07T23:54:07Z">
+    <test name="Default test" duration-ms="28150" started-at="2017-09-12T19:00:23Z" finished-at="2017-09-12T19:00:51Z">
+      <class name="implementingAnnotations.insightsPracticeFilter">
+        <test-method status="PASS" signature="invokeChromeDriver()[pri:0, instance:implementingAnnotations.insightsPracticeFilter@29774679]" name="invokeChromeDriver" is-config="true" duration-ms="20349" started-at="2017-09-12T20:00:23Z" finished-at="2017-09-12T20:00:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeChromeDriver -->
-        <test-method status="PASS" signature="InvokeWebDriver()[pri:0, instance:comNGFramework.Practice06_ParamatisingFromXML@17ed40e0]" name="InvokeWebDriver" is-config="true" duration-ms="4420" started-at="2017-09-07T23:54:07Z" finished-at="2017-09-07T23:54:12Z">
+        <test-method status="PASS" signature="practiceDropDown()[pri:0, instance:implementingAnnotations.insightsPracticeFilter@29774679]" name="practiceDropDown" duration-ms="5231" started-at="2017-09-12T20:00:44Z" finished-at="2017-09-12T20:00:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- InvokeWebDriver -->
-        <test-method status="PASS" signature="initiateChromeLaunch()[pri:0, instance:comNGFramework.Practice07b_GllobalParamPlayAround@50675690]" name="initiateChromeLaunch" is-config="true" duration-ms="14028" started-at="2017-09-07T23:54:12Z" finished-at="2017-09-07T23:54:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initiateChromeLaunch -->
-        <test-method status="PASS" signature="userGeneratedID()[pri:0, instance:comNGFramework.Practice01_Annotations@2be94b0f]" name="userGeneratedID" is-config="true" duration-ms="1" started-at="2017-09-07T23:54:26Z" finished-at="2017-09-07T23:54:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userGeneratedID -->
-        <test-method status="PASS" signature="printErrorMessage()[pri:0, instance:comNGFramework.Practice01_Annotations@2be94b0f]" name="printErrorMessage" duration-ms="2" started-at="2017-09-07T23:54:26Z" finished-at="2017-09-07T23:54:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printErrorMessage -->
-        <test-method status="PASS" signature="postMethodResult()[pri:0, instance:comNGFramework.Practice01_Annotations@2be94b0f]" name="postMethodResult" is-config="true" duration-ms="1" started-at="2017-09-07T23:54:26Z" finished-at="2017-09-07T23:54:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postMethodResult -->
-        <test-method status="PASS" signature="userGeneratedID()[pri:0, instance:comNGFramework.Practice01_Annotations@2be94b0f]" name="userGeneratedID" is-config="true" duration-ms="1" started-at="2017-09-07T23:54:26Z" finished-at="2017-09-07T23:54:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userGeneratedID -->
-        <test-method status="PASS" signature="openingBrowser()[pri:0, instance:comNGFramework.Practice01_Annotations@2be94b0f]" name="openingBrowser" duration-ms="1" started-at="2017-09-07T23:54:26Z" finished-at="2017-09-07T23:54:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openingBrowser -->
-        <test-method status="PASS" signature="postMethodResult()[pri:0, instance:comNGFramework.Practice01_Annotations@2be94b0f]" name="postMethodResult" is-config="true" duration-ms="0" started-at="2017-09-07T23:54:26Z" finished-at="2017-09-07T23:54:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postMethodResult -->
-        <test-method status="PASS" signature="delCookiesCloseBrowser()[pri:0, instance:comNGFramework.Practice01_Annotations@2be94b0f]" name="delCookiesCloseBrowser" is-config="true" duration-ms="2" started-at="2017-09-07T23:57:04Z" finished-at="2017-09-07T23:57:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- delCookiesCloseBrowser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:comNGFramework.Practice04_GroupingTests@d70c109]" name="closeBrowser" is-config="true" duration-ms="7699" started-at="2017-09-07T23:57:04Z" finished-at="2017-09-07T23:57:12Z">
+        </test-method> <!-- practiceDropDown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:implementingAnnotations.insightsPracticeFilter@29774679]" name="closeBrowser" is-config="true" duration-ms="2332" started-at="2017-09-12T20:00:49Z" finished-at="2017-09-12T20:00:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- comNGFramework.Practice01_Annotations -->
-      <class name="comNGFramework.Practice08_IfElseWebDrivers">
-        <test-method status="PASS" signature="login()[pri:0, instance:comNGFramework.Practice08_IfElseWebDrivers@2d6a9952]" name="login" duration-ms="28563" started-at="2017-09-07T23:56:36Z" finished-at="2017-09-07T23:57:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- comNGFramework.Practice08_IfElseWebDrivers -->
-      <class name="comNGFramework.Practice04_GroupingTests">
-        <test-method status="PASS" signature="assertSitemapPage()[pri:0, instance:comNGFramework.Practice04_GroupingTests@d70c109]" name="assertSitemapPage" duration-ms="12841" started-at="2017-09-07T23:54:59Z" finished-at="2017-09-07T23:55:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertSitemapPage -->
-        <test-method status="PASS" signature="openContactForm()[pri:0, instance:comNGFramework.Practice04_GroupingTests@d70c109]" name="openContactForm" duration-ms="22453" started-at="2017-09-07T23:55:12Z" finished-at="2017-09-07T23:55:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openContactForm -->
-        <test-method status="PASS" signature="openSocialMedia()[pri:0, instance:comNGFramework.Practice04_GroupingTests@d70c109]" name="openSocialMedia" duration-ms="18248" started-at="2017-09-07T23:55:34Z" finished-at="2017-09-07T23:55:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openSocialMedia -->
-      </class> <!-- comNGFramework.Practice04_GroupingTests -->
-      <class name="comNGFramework.Practice05_DataDrivenMethod">
-        <test-method status="PASS" signature="testCountDropMethod(java.lang.String, java.lang.String)[pri:0, instance:comNGFramework.Practice05_DataDrivenMethod@3ac42916]" name="testCountDropMethod" duration-ms="1" started-at="2017-09-07T23:55:53Z" data-provider="countDropItems" finished-at="2017-09-07T23:55:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[//div[@class='btn-group bootstrap-select show-tick']/button[@title='Practice']]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[//button[@title='Practice']/../select[@name='practice']/option]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCountDropMethod -->
-        <test-method status="PASS" signature="testCountDropMethod(java.lang.String, java.lang.String)[pri:0, instance:comNGFramework.Practice05_DataDrivenMethod@3ac42916]" name="testCountDropMethod" duration-ms="0" started-at="2017-09-07T23:55:53Z" data-provider="countDropItems" finished-at="2017-09-07T23:55:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Second run just a string passed]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[First bracket has the iteration number, other is the second parameter]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCountDropMethod -->
-        <test-method status="PASS" signature="testCountDropMethod(java.lang.String, java.lang.String)[pri:0, instance:comNGFramework.Practice05_DataDrivenMethod@3ac42916]" name="testCountDropMethod" duration-ms="0" started-at="2017-09-07T23:55:53Z" data-provider="countDropItems" finished-at="2017-09-07T23:55:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCountDropMethod -->
-      </class> <!-- comNGFramework.Practice05_DataDrivenMethod -->
-      <class name="comNGFramework.Practice10_InheritanceExtends">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:comNGFramework.Practice10_InheritanceExtends@22a71081]" name="openBrowser" duration-ms="33252" started-at="2017-09-07T23:54:26Z" finished-at="2017-09-07T23:54:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-      </class> <!-- comNGFramework.Practice10_InheritanceExtends -->
-      <class name="comNGFramework.Practice03_DependencyAnnotations">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:comNGFramework.Practice03_DependencyAnnotations@31b7dea0]" name="openBrowser" duration-ms="1" started-at="2017-09-07T23:54:26Z" finished-at="2017-09-07T23:54:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="timeOutAttribute()[pri:0, instance:comNGFramework.Practice03_DependencyAnnotations@31b7dea0]" name="timeOutAttribute" duration-ms="32" started-at="2017-09-07T23:54:26Z" finished-at="2017-09-07T23:54:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- timeOutAttribute -->
-        <test-method status="PASS" signature="openTravelWebsite()[pri:0, instance:comNGFramework.Practice03_DependencyAnnotations@31b7dea0]" name="openTravelWebsite" duration-ms="1" started-at="2017-09-07T23:54:59Z" depends-on-methods="comNGFramework.Practice03_DependencyAnnotations.openBrowser" finished-at="2017-09-07T23:54:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openTravelWebsite -->
-      </class> <!-- comNGFramework.Practice03_DependencyAnnotations -->
-      <class name="comNGFramework.Practice07_GllobalParameterization">
-        <test-method status="PASS" signature="login()[pri:0, instance:comNGFramework.Practice07_GllobalParameterization@47d384ee]" name="login" duration-ms="1" started-at="2017-09-07T23:56:36Z" finished-at="2017-09-07T23:56:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- comNGFramework.Practice07_GllobalParameterization -->
-      <class name="comNGFramework.Practice06_ParamatisingFromXML">
-        <test-method status="SKIP" signature="testing(java.lang.String, java.lang.String)[pri:0, instance:comNGFramework.Practice06_ParamatisingFromXML@17ed40e0]" name="testing" duration-ms="0" started-at="2017-09-07T23:55:53Z" finished-at="2017-09-07T23:55:53Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'LiveSite' is required by @Test on method testing but has not been marked @Optional or defined
-in C:\Users\Paul\eclipse-workspace\comNGFramework\RunPackageLevel.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'LiveSite' is required by @Test on method testing but has not been marked @Optional or defined
-in C:\Users\Paul\eclipse-workspace\comNGFramework\RunPackageLevel.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testing -->
-      </class> <!-- comNGFramework.Practice06_ParamatisingFromXML -->
-    </test> <!-- Checking annotations -->
-  </suite> <!-- Automation from package level -->
+      </class> <!-- implementingAnnotations.insightsPracticeFilter -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

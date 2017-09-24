@@ -12,7 +12,10 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 
+
+	
 public class AL02_InsightsArticleViewer {
+	
 	
 	public WebDriver driver;
 	String insightsTitle = "//div[@class='row']/div/ul/li[5]/a[@href='/en/insights']";
@@ -65,7 +68,7 @@ public class AL02_InsightsArticleViewer {
 		{					
 			String getThis = driver.findElement(By.xpath("//form[@action='']/div/select[@class='selectpicker margin-bottom-10'][@name='practice']/../div/ul/li[" + i + "]/a/span")).getAttribute("innerText");
 			list.add(getThis);
-			System.out.println(getThis);	
+			System.out.println(getThis);
 		}
 		
 

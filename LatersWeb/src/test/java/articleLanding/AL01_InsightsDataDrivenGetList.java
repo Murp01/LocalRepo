@@ -2,6 +2,7 @@ package articleLanding;
 
 import java.util.ArrayList;
 import java.util.List;
+import org.apache.log4j.*;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,6 +15,8 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class AL01_InsightsDataDrivenGetList {
+	
+	public static Logger log = LogManager.getLogger(AL01_InsightsDataDrivenGetList.class.getName());
 	
 	
 	public WebDriver driver;
@@ -116,13 +119,16 @@ public class AL01_InsightsDataDrivenGetList {
 		int SelectionCount = driver.findElements(By.xpath(FilterSelCount)).size();
 		System.out.println(PreMessage + SelectionCount);
 		
+
+		
 		//	3b add items into list
 		List<String> list = new ArrayList<String>();
 		for (int i = 1; i < SelectionCount + 1; i++)	//Something wrong with the counter.  I added + 1 as a short term measure (counter hs to start at i=1, instead of i=0?
 		{					
 			String getThis = driver.findElement(By.xpath(SelNameList + i + "]/a/span")).getAttribute("innerText");
 			list.add(getThis);
-			System.out.println(getThis);	
+			System.out.println(getThis);
+			log.debug("Work!");
 		}
 		
 		//	Step1:	Open Insights page
@@ -179,6 +185,7 @@ public class AL01_InsightsDataDrivenGetList {
 	public void TestTearDown()
 	{
 		driver.close();
+		//log.info("Driver Closed Here");
 	}
 	
 	
