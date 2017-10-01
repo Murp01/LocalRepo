@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"pretty"}, strict = false)
-//@CucumberOptions(plugin = {"pretty", "html: cucumber-html-report"}, strict = false)
+
 
 
 

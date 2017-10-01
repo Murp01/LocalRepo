@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="articleLanding.AL01_InsightsDataDrivenGetList">
+      <class name="smokeTests.Smoke_PrimaryNavTitles">
         <methods>
-          <include name="InvokeWebDriver"/>
-          <include name="TestTearDown"/>
-          <include name="LandingPageSearch" invocation-numbers="0"/>
-          <include name="ListAllFilterItems" invocation-numbers="1 2 3 4 5"/>
+          <include name="invokeChromeDriver"/>
+          <include name="assertSitemapPage"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- articleLanding.AL01_InsightsDataDrivenGetList -->
+      </class> <!-- smokeTests.Smoke_PrimaryNavTitles -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

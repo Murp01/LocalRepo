@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13973" started-at="2017-09-23T12:11:49Z" finished-at="2017-09-23T12:12:03Z">
+  <suite name="Default suite" duration-ms="39520" started-at="2017-09-25T22:58:43Z" finished-at="2017-09-25T22:59:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13973" started-at="2017-09-23T12:11:49Z" finished-at="2017-09-23T12:12:03Z">
-      <class name="homepage.HPPOM_LocalOfficeWidget">
-        <test-method status="PASS" signature="searchLowerCase()[pri:0, instance:homepage.HPPOM_LocalOfficeWidget@4c70fda8]" name="searchLowerCase" duration-ms="13883" started-at="2017-09-23T13:11:49Z" finished-at="2017-09-23T13:12:03Z">
+    <test name="Default test" duration-ms="39520" started-at="2017-09-25T22:58:43Z" finished-at="2017-09-25T22:59:23Z">
+      <class name="smokeTests.Smoke_PrimaryNavTitles">
+        <test-method status="PASS" signature="invokeChromeDriver()[pri:0, instance:smokeTests.Smoke_PrimaryNavTitles@3ffc5af1]" name="invokeChromeDriver" is-config="true" duration-ms="16550" started-at="2017-09-25T23:58:43Z" finished-at="2017-09-25T23:59:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchLowerCase -->
-      </class> <!-- homepage.HPPOM_LocalOfficeWidget -->
+        </test-method> <!-- invokeChromeDriver -->
+        <test-method status="PASS" signature="openContactForm()[pri:0, instance:smokeTests.Smoke_PrimaryNavTitles@3ffc5af1]" name="openContactForm" duration-ms="21551" started-at="2017-09-25T23:59:00Z" finished-at="2017-09-25T23:59:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openContactForm -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:smokeTests.Smoke_PrimaryNavTitles@3ffc5af1]" name="closeBrowser" is-config="true" duration-ms="1371" started-at="2017-09-25T23:59:21Z" finished-at="2017-09-25T23:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- smokeTests.Smoke_PrimaryNavTitles -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
