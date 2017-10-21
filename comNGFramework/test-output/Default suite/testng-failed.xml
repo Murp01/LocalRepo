@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="implementingAnnotations.LL_DataDrivenGetList">
+      <class name="comNGFramework.Practice10_InheritanceExtends">
         <methods>
-          <include name="InvokeWebDriver"/>
-          <include name="ListAllFilterItems" invocation-numbers="0"/>
+          <include name="ToIterateNavTitles"/>
         </methods>
-      </class> <!-- implementingAnnotations.LL_DataDrivenGetList -->
+      </class> <!-- comNGFramework.Practice10_InheritanceExtends -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

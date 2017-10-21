@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Parametirise from the XML">
+
+	<test name = "Parameter Test cases">
+		<parameter name="LiveSite" value="https://lpsuat.linklaters.com"/>
+		<parameter name="InsightLandingTitle" value="//div[@class='row']/div/ul/li[5]/a[@href='/en/insights']"/>
+		
+		<classes>
+		
+			<class name = "comNGFramework.Practice06_ParamatisingFromXML">
+			
+			</class>
+	
+		</classes>
+
+	</test>
+
+</suite>

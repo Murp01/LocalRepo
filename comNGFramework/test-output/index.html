@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Paul\AppData\Local\Temp\testng-eclipse--3494780\testng-customsuite.xml</span>
+                    <span>C:\Users\Paul\AppData\Local\Temp\testng-eclipse--796602526\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +102,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="implementingAnnotations.LL_DataDrivenGetList" hash-for-method="ListAllFilterItems(//div[@class=&#039;row&#039;]/div/ul/li[5]/a[@href=&#039;/en/insights&#039;], //div[@class=&#039;btn-group bootstrap-select s...)">ListAllFilterItems(//div[@class='row']/div/ul/li[5]/a[@href='/en/insights'], //div[@class='btn-group bootstrap-select s...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="implementingAnnotations.LL_DataDrivenGetList" hash-for-method="ListAllFilterItems(//div[@class=&#039;row&#039;]/div/ul/li[5]/a[@href=&#039;/en/insights&#039;], //div[@class=&#039;btn-group bootstrap-select s...)">ListAllFilterItems(//div[@class='row']/div/ul/li[5]/a[@href='/en/insights'], //div[@class='btn-group bootstrap-select s...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="implementingAnnotations.insightsPracticeFilter" hash-for-method="practiceDropDown">practiceDropDown</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,23 +120,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">implementingAnnotations.LL_DataDrivenGetList</span>
+              <span class="class-name">implementingAnnotations.insightsPracticeFilter</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ListAllFilterItems(//div[@class=&#039;row&#039;]/div/ul/li[5]/a[@href=&#039;/en/insights&#039;], //div[@class=&#039;btn-group bootstrap-select s...)">
-                  </a> <!-- ListAllFilterItems(//div[@class='row']/div/ul/li[5]/a[@href='/en/insights'], //div[@class='btn-group bootstrap-select s...) -->
-                  <span class="method-name">ListAllFilterItems</span>
-                  <span class="parameters">(//div[@class='row']/div/ul/li[5]/a[@href='/en/insights'], //div[@class='btn-group bootstrap-select show-tick']/button[@title='Sector'], //button[@title='Sector']/../select[@title='Sector']/option, //button[@title='Sector']/../div/ul/li[)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="ListAllFilterItems(//div[@class=&#039;row&#039;]/div/ul/li[5]/a[@href=&#039;/en/insights&#039;], //div[@class=&#039;btn-group bootstrap-select s...)">
-                  </a> <!-- ListAllFilterItems(//div[@class='row']/div/ul/li[5]/a[@href='/en/insights'], //div[@class='btn-group bootstrap-select s...) -->
-                  <span class="method-name">ListAllFilterItems</span>
-                  <span class="parameters">(//div[@class='row']/div/ul/li[5]/a[@href='/en/insights'], //div[@class='btn-group bootstrap-select show-tick']/button[@title='Practice'], //button[@title='Practice']/../select[@name='practice']/option, //button[@title='Practice']/../div/ul/li[)</span>
+                  <a name="practiceDropDown">
+                  </a> <!-- practiceDropDown -->
+                  <span class="method-name">practiceDropDown</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +135,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Paul\AppData\Local\Temp\testng-eclipse--3494780\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Paul\AppData\Local\Temp\testng-eclipse--796602526\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -158,7 +144,11 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;implementingAnnotations.LL_DataDrivenGetList&quot;/&gt;
+      &lt;class name=&quot;implementingAnnotations.insightsPracticeFilter&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;practiceDropDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- implementingAnnotations.insightsPracticeFilter --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -198,20 +188,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'ListAllFilterItems')
-data.setCell(0, 2, 'implementingAnnotations.LL_DataDrivenGetList')
-data.setCell(0, 3, 10212);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ListAllFilterItems')
-data.setCell(1, 2, 'implementingAnnotations.LL_DataDrivenGetList')
-data.setCell(1, 3, 8580);
+data.setCell(0, 1, 'practiceDropDown')
+data.setCell(0, 2, 'implementingAnnotations.insightsPracticeFilter')
+data.setCell(0, 3, 5231);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -226,9 +212,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">implementingAnnotations.insightsPracticeFilter</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">openSocialMedia</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -237,19 +230,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">implementingAnnotations.LL_DataDrivenGetList</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">implementingAnnotations.insightsPracticeFilter</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">InvokeWebDriver</span>
+                <span class="method-name">invokeChromeDriver</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">ListAllFilterItems(//div[@class='row']/div/ul/li[5]/a[@href='/en/insights'], //div[@class='btn-group bootstrap-select s...)</span>
-                <span class="method-start">23822 ms</span>
+                <span class="method-name">practiceDropDown</span>
+                <span class="method-start">20564 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">ListAllFilterItems(//div[@class='row']/div/ul/li[5]/a[@href='/en/insights'], //div[@class='btn-group bootstrap-select s...)</span>
-                <span class="method-start">34039 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">25802 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

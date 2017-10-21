@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name = "Autonmation Tests">
+
+
+	<test name="Smoke Test Cases">
+
+	 
+		<classes>
+			<class name="LatersWeb.src/test/java.homepage" />
+			<class name="LatersWeb.src/test/java.smokeTests"/>
+		</classes>			
+	
+	</test>
+
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parametirise from the XML]">
+  <test name="Parameter Test cases(failed)">
+    <parameter name="InsightsLandingPage" value="//div[@class=&#039;row&#039;]/div/ul/li[5]/a[@href=&#039;/en/insights&#039;]"/>
+    <classes>
+      <class name="comNGFramework.Practice06_ParamatisingFromXML">
+        <methods>
+          <include name="testing"/>
+          <include name="InvokeWebDriver"/>
+        </methods>
+      </class> <!-- comNGFramework.Practice06_ParamatisingFromXML -->
+    </classes>
+  </test> <!-- Parameter Test cases(failed) -->
+</suite> <!-- Failed suite [Parametirise from the XML] -->
